@@ -14,7 +14,7 @@ function App(){
     }
     const handleChange = (event)=>{
       console.log('in handleChange', event.target.value);
-      setText( );
+      setText(event.target.value);
     }
     const[text, setText] = useState('text');
     
